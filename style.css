@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --heading-color:#333333;
+    --paragraph-color:#666666;
+    --white-color:#ffffff;
+    --service-bg-color:#30C39E;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+/* about section starts here */
+.about-me h1{
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.about-me h4{
+    font-size: 22px;
+    line-height: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.about-me p{
+    color: var(--paragraph-color);
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+}
+.about-me h6{
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+.about-me h6 span {
+    float: right;
+    font-size: 1em;
+}
+/* about section ending here */
+/* service section starts here */
+.service{
+    background-color: var(--service-bg-color);
+}
+.service h1{
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.service h3{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.service span{
+    color: #fff;
+    font-size: 35px;
+}
+.service p{
+    color: #eee;
+    margin: 1em 0;
+    line-height: 30px;
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+/* service section ending here */
